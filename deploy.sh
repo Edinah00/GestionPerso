@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Définition des variables
-APP_NAME="ChequeServlet"
+APP_NAME="GestionPerso"
 SRC_DIR="src/main/java"
 WEB_DIR="src/main/webapp"
 BUILD_DIR="build"

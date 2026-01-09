@@ -48,30 +48,3 @@ public class User {
         return "User{userId=" + userId + ", username='" + username + "'}";
     }
 }
-
-// ============================================
-// Énumérations
-// ============================================
-enum Priority {
-    HAUTE, MOYENNE, BASSE
-}
-
-enum TaskStatus {
-    EN_ATTENTE, EN_COURS, TERMINEE, ANNULEE
-}
-
-enum TripType {
-    MATIN, SOIR, AUTRE
-}
-
-enum MealType {
-    PETIT_DEJEUNER, DEJEUNER, DINER, COLLATION
-}
-
-enum RestType {
-    SOMMEIL, SIESTE, PAUSE, RELATIONNEL
-}
-
-enum AlarmType {
-    REVEIL, TRAJET, TACHE, REPAS, REPOS, RELATIONNEL
-}
